@@ -1,38 +1,84 @@
 .App {
-  text-align: center;
+background-color: black;
+
+}
+.card{
+  height: 400px;
+  width: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: rosybrown;
+}
+img{
+  height: 100px;
+  width: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex{
   display: flex;
-  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.item{
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+}
+.item img{
+  height: 100%;
+  width: 100%;
+}
+.inventory{
+  background-color: gray;
+}
+button{
+ margin: 10px;
+
+}
+.toolbar{
+  height: 100px;
+  background-color: slategray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around ;
+  border: 2px solid black;
+}
+
+.grow1 {
+  flex: 1
+}
+.spaceAr{
+  justify-content: space-around ;
+}
+.a-center{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.arena{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.arena img  {
+  width: 150px;
+  height: 200px;
+}
+.progressWrapper{
+  margin-top: 20px;
+  height: 20px;
+  width: 100%;
+  background-color: slategray;
+
 }
 
-.App-link {
-  color: #61dafb;
+.progress{
+  height: 100%;
+  width: 80%;
+  background-color: palevioletred;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  color: deeppink;
 }
